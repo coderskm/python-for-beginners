@@ -1,0 +1,15 @@
+l1 = [87,34,76,59,98,22,43,66,10]
+l1.sort()
+print(l1)
+l1.reverse()
+print(l1)
+l1.append(39)
+print(l1.pop())
+print(l1.pop(5))
+print(max(l1))
+print(min(l1))
+print(l1)
+print(l1.count(34))
+l1.remove(22)
+del l1[0]
+print(l1)

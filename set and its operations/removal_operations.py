@@ -1,0 +1,10 @@
+s = {10,20,60,5,0,1,5}
+s.discard(20)
+print(s)
+s.remove(0)
+print(s)
+s.add(55)
+print(s)
+print(len(s))
+s.clear()
+print(s)
